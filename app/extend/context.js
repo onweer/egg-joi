@@ -24,5 +24,6 @@ module.exports = {
       let message = error.details[0].message;
       this.throw(422, message)
     }
+    return value;
   }
 };
